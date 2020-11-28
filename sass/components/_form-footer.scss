@@ -1,0 +1,45 @@
+.mailing {
+    margin-left: auto;
+}
+
+.mailing-input {
+    width: 358px;
+    padding: 15px 16px;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    color: rgba(255, 255, 255, 0.6);
+
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+
+.button-footer {
+    position: relative;
+}
+
+.subscribe {
+    padding-right: 25px;
+}
+
+.icon-email {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    width: 24px;
+    height: 24px;
+    fill: $white;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.button-footer:hover  .icon-email,
+.button-footer:focus  .icon-email {
+    fill: $accent-color;
+}

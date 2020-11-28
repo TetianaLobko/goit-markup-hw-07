@@ -1,0 +1,42 @@
+.features-list {
+    display: flex;
+}
+
+.features-title,
+.section-title {
+    font-weight: 700;
+    color: $color-secondary;
+}
+
+.features-title {
+    margin-bottom: 10px;
+    line-height: 1.172;
+    text-transform: uppercase;
+}
+
+.features-desc {
+   margin-bottom: 0;
+}
+
+.features-item {
+    flex-basis: calc((100% - 90px)/ 4);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+ .features-icons {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-gray;
+    border-radius: 4px;
+    margin-bottom: 30px;
+ }
+
+.features-svg {
+    width: 70px;
+    height: 70px;
+}
